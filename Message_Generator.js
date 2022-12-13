@@ -16,6 +16,10 @@
 //wets the bed every night.
 //couldn't organise a piss up in a brewery.
 
-function generateMessage() [
-    
-]
+function generateMessage(messageOne, messageTwo, messageThree) {
+    messageOne = ["You are", "Your Mum is", "Your boss is"]
+    messageTwo = ["a stupid idiot who", "an amazing person who", "a sexy person who"]
+    messageThree = ["likes to run around naked.", "wets the bed every night.", "couldn't organise a piss up in a brewery."]
+};
+console.log("Hello")
+generateMessage()
